@@ -38,15 +38,7 @@ function App() {
         { answerText: "Surat", isCorrect: false },
       ],
     },
-    {
-      questionText: "4. Which is the Capital City of India?",
-      options: [
-        { answerText: "Ahmedabadh", isCorrect: false },
-        { answerText: "Mumbai", isCorrect: false },
-        { answerText: "Delhi", isCorrect: true },
-        { answerText: "Patna", isCorrect: false },
-      ],
-    },
+    
   ];
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
