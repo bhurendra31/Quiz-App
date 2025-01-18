@@ -29,7 +29,15 @@ function App() {
         { answerText: "None of the above", isCorrect: false },
       ],
     },
-  
+    {
+      questionText: "4. Which is the Capital City of Gujrat?",
+      options: [
+        { answerText: "Ahmedabadh", isCorrect: false },
+        { answerText: "Vadodara", isCorrect: false },
+        { answerText: "Gandhinagar", isCorrect: true },
+        { answerText: "Surat", isCorrect: false },
+      ],
+    },
     {
       questionText: "4. Which is the Capital City of India?",
       options: [
